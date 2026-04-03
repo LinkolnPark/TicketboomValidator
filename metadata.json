@@ -1,0 +1,5 @@
+{
+  "name": "Ticketboom Validator",
+  "description": "Aplicación de validación de entradas para Ticketboom mediante escaneo de QR y carga de CSV.",
+  "requestFramePermissions": ["camera"]
+}
