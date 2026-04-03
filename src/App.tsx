@@ -323,7 +323,7 @@ export default function App() {
           className="max-w-md w-full bg-white rounded-3xl shadow-xl p-8 text-center border border-neutral-100"
         >
           <div className="mb-8 flex justify-center">
-            <div className="w-24 h-24 bg-blue-600 rounded-2xl flex items-center justify-center shadow-xl shadow-blue-100 overflow-hidden p-2">
+            <div className="w-24 h-24 bg-white rounded-2xl flex items-center justify-center shadow-xl shadow-neutral-100 border border-neutral-100 overflow-hidden p-2">
               <img 
                 src={logo} 
                 alt="Ticketboom" 
@@ -333,7 +333,7 @@ export default function App() {
                   const parent = e.currentTarget.parentElement;
                   if (parent) {
                     const icon = document.createElement('div');
-                    icon.className = "flex flex-col items-center justify-center text-white font-bold text-xs";
+                    icon.className = "flex flex-col items-center justify-center text-blue-600 font-bold text-xs";
                     icon.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-ticket mb-1"><path d="M2 9a3 3 0 0 1 0 6v2a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-2a3 3 0 0 1 0-6V7a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2Z"/><path d="m9 12 2 2 4-4"/></svg><span>TICKETBOOM</span>';
                     parent.appendChild(icon);
                   }
@@ -390,7 +390,7 @@ export default function App() {
       <header className="bg-white border-b border-neutral-200 px-4 py-2 sticky top-0 z-30">
         <div className="max-w-4xl mx-auto flex items-center justify-between">
           <div className="flex items-center gap-2">
-            <div className="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center shadow-lg shadow-blue-100 overflow-hidden p-1">
+            <div className="w-8 h-8 bg-white rounded-lg flex items-center justify-center shadow-sm border border-neutral-100 overflow-hidden p-1">
               <img 
                 src={logo} 
                 alt="TB" 
@@ -401,7 +401,7 @@ export default function App() {
                   const parent = e.currentTarget.parentElement;
                   if (parent) {
                     const icon = document.createElement('div');
-                    icon.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-ticket text-white w-5 h-5"><path d="M2 9a3 3 0 0 1 0 6v2a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-2a3 3 0 0 1 0-6V7a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2Z"/><path d="m9 12 2 2 4-4"/></svg>';
+                    icon.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-ticket text-blue-600 w-5 h-5"><path d="M2 9a3 3 0 0 1 0 6v2a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-2a3 3 0 0 1 0-6V7a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2Z"/><path d="m9 12 2 2 4-4"/></svg>';
                     parent.appendChild(icon.firstChild!);
                   }
                 }}
