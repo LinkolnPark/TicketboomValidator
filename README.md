@@ -1,4 +1,2 @@
-
-
-# Ticketboom Validator
+# Ticketboom Validator (offline, single device)
 
